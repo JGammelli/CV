@@ -1,8 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Startpge from './startPge.js';
 
 class Main extends Component {
     render(){
-        return <p>Hello from main!</p>
+        return (
+            <Startpge/>
+        );
     }
 }
 
