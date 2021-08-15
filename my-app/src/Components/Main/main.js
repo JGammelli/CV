@@ -3,6 +3,7 @@ import Startpge from './startPge.js';
 
 class Main extends Component {
     render(){
+        
         return (
             <Startpge/>
         );
