@@ -1,0 +1,52 @@
+/*------images and background------*/
+#nightSection{
+    height: 1600px;
+   
+    // img{
+
+    // }
+}
+
+
+/*------------ TEXT ------------*/
+
+#nameBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;     
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.startTxt{
+    font-family: 'woodcutter_vintage_cartoonBd';
+    color: rgba(255, 255, 255, 0.637); 
+}
+
+.moveTxtBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50em;
+    height: 27em;     
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+#txtgreet{
+    font-size: 1.5em;
+}
+
+#txtname{
+    font-size: 3em;
+}
+
+#txtinfo{
+    font-size: 1.5em;
+}
+
